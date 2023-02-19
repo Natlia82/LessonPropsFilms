@@ -7,9 +7,8 @@ function Stars(props) {
    const {count} = props;
  
     return (
-        <ul class="card-body-stars u-clearfix">
-            {count > 0 && count < 6 && <Star />
-              }
+        <ul className="card-body-stars u-clearfix">
+            {count > 0 && count < 6 && <Star /> }
              
         </ul>
     )
